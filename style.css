@@ -1,0 +1,138 @@
+
+#show {
+    width: 500px;
+    /* opacity: 0.6; */
+}
+.parent{
+    display: flex;
+}
+.e5{
+    text-align: center;
+    padding-top: 4%;
+}
+.e2{
+    padding-left: 4%;
+}
+.e3{
+    padding-left: 4%;
+}
+.e6{
+    padding-left: 4%;
+}
+.parent2{
+    display: flex;
+    padding-top: 4%;
+
+}
+.bttness{
+    display: flex;
+}
+.e9{
+    padding-left: 7%;
+}
+.e8{
+    padding-left: 7%;
+}
+.e7{
+    padding-left: 7%;
+    padding-top: 0.5%;
+}
+.bincb, .oincb, .dincb {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .bincb, .oincb, .dincb {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .bincb:hover, .oincb:hover, .dincb:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .bandw {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .bandw:hover {
+    background-color: #555555;
+    color: white;
+  }  
+  .bandw {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  #generate-btn {
+    background-color: #1c3b8f; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  #image-input {
+    background-color: #1c3b8f; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  #selectFont {
+    padding-top: 4%;
+    padding-bottom: 6%;
+    height: 3rem;
+    width: 10.5rem;
+
+  }
+.headd{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 4rem;
+
+}
+.please{
+    padding-top: 4%;
+}
+
+@media screen and (max-width: 650px) {
+    .parent {
+        flex-direction: column;
+        
+    }
+ }  

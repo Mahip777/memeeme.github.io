@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Meme Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="headd">MEME GENERATOR</h1>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <div class="parent">
+            <div class="e1">
+                <textarea id="top" placeholder="Top text appears here"></textarea>
+                 Top text size :<input type="range" id="upsize" min="0.05" max="0.25" value="0.15" step="0.01">
+            </div>
+            <div class="e2">
+                <textarea id="bottom" placeholder="Bottom text appears here"></textarea>
+                 Bottom text size :<input type="range" id="downsize" min="0.05" max="0.25" value="0.15" step="0.01">
+            </div>
+            <div class="e3">
+                <input type="file" id="image-input" accept="image/*">
+            </div>
+            <div class="e4">
+                <button id="generate-btn">Save changes</button>
+            </div>
+            
+            <!-- <div class="e6">
+                <label for="favcolor">Select text color</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            </div>
+
+            <div class="e7">
+                <select id="selectFont" name="selectFontFamily" onchange="updateFont();">
+                    <option> Serif </option>
+                    <option> Arial </option>
+                    <option> Sans-Serif </option>                                  
+                    <option> Tahoma </option>
+                    <option> Verdana </option>
+                    <option> Lucida Sans Unicode </option> 
+                    <option> Times New Roman </option>    
+                </select>
+            </div>
+
+            <div class="e8">
+                <div class="bttness">
+                    <div class="bincrease" onclick="binc()" id="bincrease1">
+                        <button class="bincb">Increase</button>
+
+                    
+                    </div>
+
+                    <div class="bnormal" onclick="oinc()" id="bnormal1">
+                        <button class="oincb">Original</button>
+
+                    
+                    </div>
+
+                    <div class="bdecrease" onclick="dinc()" id="bdecrease1">
+                        <button class="dincb">Decrease</button>
+
+                    
+                    </div>
+
+                </div>
+
+                <div class="density" onclick="baw()">                    
+                    
+                      <button class="bandw">Black and White</button>
+                
+
+                </div>
+
+                  -->
+
+
+
+
+            <!-- </div> -->
+            
+        </div>
+
+        <div class="e5">
+            <canvas id="show" title="Right click -> &quot;Save image as...&quot;" onchange="ChangeBright();"></canvas>
+        </div>
+
+        <div class="parent2">
+            <div class="e6">
+                <label for="favcolor" style="font-size: 2rem;">Select text color</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            </div>
+    
+            <div class="e7">
+                <select id="selectFont" name="selectFontFamily" onchange="updateFont();">
+                    <option> Serif </option>
+                    <option> Arial </option>
+                    <option> Sans-Serif </option>                                  
+                    <option> Tahoma </option>
+                    <option> Verdana </option>
+                    <option> Lucida Sans Unicode </option> 
+                    <option> Times New Roman </option> 
+                    <option>Dela Gothic One</option>   
+                </select>
+            </div>
+    
+            <div class="e8">
+                <div class="bttness">
+                    <div class="bincrease" onclick="binc()" id="bincrease1">
+                        <button class="bincb">Increase</button>
+    
+                    
+                    </div>
+    
+                    <div class="bnormal" onclick="oinc()" id="bnormal1">
+                        <button class="oincb">Original</button>
+    
+                    
+                    </div>
+    
+                    <div class="bdecrease" onclick="dinc()" id="bdecrease1">
+                        <button class="dincb">Decrease</button>
+    
+                    
+                    </div>
+    
+                </div>
+    
+           
+    
+            </div>
+
+            <div class="e9" onclick="baw()">                    
+                    
+                <button class="bandw">Black and White</button>
+               
+   
+           </div>
+
+
+        </div>
+
+        <p class="please">
+            <strong>Please Note :-</strong> <br>
+            Sometimes the changes might not be visible, please click on save changes 2 - 3 times for that.
+        </p>
+        
+        <script src="meme.js"></script>
+    </body>
+</html>
